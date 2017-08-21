@@ -1,3 +1,7 @@
 .meniu {
     padding: 20px 2%;
 }
+
+.meniu a {
+    width: 12.5%;
+}
