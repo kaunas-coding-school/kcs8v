@@ -8,6 +8,7 @@
     text-align: center;
 }
 .foto{
+    width: 33%;
     float: left;
     margin: 10px;
     border: solid;
@@ -16,10 +17,10 @@
     display: inline-block;
 }
 h1{
-    font-size: 70px;
+    font-size: 100px;
 }
 .size{
-    font-size: 30px;
+    font-size: 26px;
 }
 .right{
     float: right;
