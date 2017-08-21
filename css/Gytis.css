@@ -16,4 +16,20 @@ div.antraste
 
 }
 
+.lygiavimas
+{
+    float: left;
+    border: solid black 1px;
+    margin: 4px;
+    padding: 4px;
+}
 
+h1
+{
+    font-size: 70px;
+
+}
+
+p{
+    font-size: 26px;
+}
