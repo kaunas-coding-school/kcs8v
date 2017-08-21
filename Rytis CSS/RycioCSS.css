@@ -1,24 +1,62 @@
-.menu{
-    padding: 20px 2%;
-}
-.menu a{
-    width: 11%;
+/*.menu{*/
+/*padding: 20px 2%;*/
+/*}*/
+.menu a {
+    padding: 20px 0px;
+    width: 12%;
     display: inline-block;
     text-align: center;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 30px;
 }
-.photo{
+
+.menu a:visited {
+    background-color: orange;
+}
+
+/*.menu a:hover{*/
+/*background-color: red;*/
+/*}*/
+@keyframes menu {
+    0% {
+        background-color: lightgreen;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: #b72e33;
+    }
+    100% {
+        background-color: lightgreen;
+    }
+}
+
+.menu a:hover {
+    background-color: lightgreen;
+    animation-name: menu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.photo {
     width: 33%;
-    float:left;
+    float: left;
     border: 2px solid black;
-    margin:10px;
+    margin: 10px;
 }
-h1{
-    font-size:100px;
+
+h1 {
+    font-size: 100px;
 }
-.turinys{
-    font-size:20px
+
+.turinys {
+    font-size: 20px
 }
-footer{
-    float:right;
-    margin:10px;
+
+footer {
+    float: right;
+    margin: 10px;
+
 }
