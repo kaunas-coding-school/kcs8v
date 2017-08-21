@@ -1,0 +1,35 @@
+.meniu {
+    padding: 20px 2%;
+
+}
+
+.meniu a {
+    width: 11%;
+    display: inline-block;
+    text-align: center;
+
+}
+div.antraste
+{
+    display: inline-block;
+
+
+}
+
+.lygiavimas
+{
+    float: left;
+    border: solid black 1px;
+    margin: 4px;
+    padding: 4px;
+}
+
+h1
+{
+    font-size: 70px;
+
+}
+
+p{
+    font-size: 26px;
+}
