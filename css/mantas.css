@@ -1,0 +1,29 @@
+.meniu{
+    padding: 10px 2%;
+
+}
+.meniu a{
+    width:  11%;
+    display: inline-block;
+    text-align: center;
+}
+.foto{
+    width: 33%;
+    float: left;
+    margin: 10px;
+    border: solid;
+}
+.turinys{
+    display: inline-block;
+}
+h1{
+    font-size: 100px;
+}
+.size{
+    font-size: 26px;
+}
+.right{
+    float: right;
+    margin: 20px 4%;
+
+}
