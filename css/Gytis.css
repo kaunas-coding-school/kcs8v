@@ -22,6 +22,7 @@ div.antraste
     border: solid black 1px;
     margin: 4px;
     padding: 4px;
+    width: 33%;
 }
 
 h1
@@ -31,5 +32,10 @@ h1
 }
 
 p{
-    font-size: 26px;
+    font-size: 22px;
+}
+.right
+{
+    text-align: right;
+    margin: 20px 2%;
 }
