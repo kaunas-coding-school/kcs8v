@@ -3,5 +3,6 @@
 }
 
 .meniu a {
-    width: 12.5%;
+    width: 12%;
+    display: inline-block;
 }
