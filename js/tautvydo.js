@@ -1,7 +1,17 @@
+lemputes_busena = false;
 
 function toggleLempute() {
-    // ...
+    if (lemputes_busena) {
+        isjungti();
+    } else {
+        ijungti();
+    }
+    lemputes_busena = !lemputes_busena;
+}
 
-    document.getElementById('lempute').src='pic_bulboff.gif'
-
+function ijungti(){
+    document.getElementById('lempute').src='../img/pic_bulbon.gif'
+}
+function isjungti(){
+    document.getElementById('lempute').src='../img/pic_bulboff.gif'
 }
