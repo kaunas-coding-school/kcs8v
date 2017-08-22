@@ -13,11 +13,12 @@
     margin: 5px;
     padding: 5px;
 }
+
 h1 {
+    font-size: 80px;
     margin-top: 15px;
-    font-size: 100px;
 }
-.turinys {
+.turinys{
     font-size: 40px;
     line-height: 50px;
     padding: 10px;
@@ -26,4 +27,3 @@ footer {
     float: right;
     margin: 20px 2%;
 }
-
