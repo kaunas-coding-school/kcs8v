@@ -1,7 +1,7 @@
-
 .meniu {
     padding: 20px 2%;
 }
+
 .meniu a {
     width: 11%;
     text-align: center;
@@ -10,7 +10,7 @@
 .profilio_foto {
     width: 33%;
     float: left;
-    border:  1px solid black;
+    border: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
@@ -27,4 +27,3 @@ footer {
     float: right;
     margin: 20px 2%;
 }
-
