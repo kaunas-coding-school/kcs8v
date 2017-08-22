@@ -1,29 +1,45 @@
-.meniu{
+.meniu {
     padding: 10px 2%;
 
 }
-.meniu a{
-    width:  11%;
+.meniu a {
+    width: 12%;
     display: inline-block;
     text-align: center;
+    height: 50px;
+    border: solid black 1px;
+    padding: 30px 0px 0px 0px;
+
 }
-.foto{
+
+.foto {
     width: 33%;
     float: left;
     margin: 10px;
     border: solid;
 }
-.turinys{
+
+.turinys {
     display: inline-block;
 }
-h1{
+
+h1 {
     font-size: 100px;
 }
-.size{
+
+.size {
     font-size: 26px;
 }
-.right{
+
+.right {
     float: right;
     margin: 20px 4%;
 
+}
+
+.back {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
