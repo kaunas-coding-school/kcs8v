@@ -89,6 +89,7 @@ a::after {
     transition: max-height .3s,border-color 0s;
 }
 */
+
 a:focus::before, a:hover::before, a:focus::after, a:hover::after {
     max-height: 100%;
     transition-delay: .28s;
