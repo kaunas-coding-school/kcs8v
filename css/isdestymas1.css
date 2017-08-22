@@ -1,0 +1,29 @@
+.meniu {
+    padding: 20px 2%;
+}
+.meniu a {
+    width: 11%;
+    text-align: center;
+    display: inline-block;
+}
+.profilio_foto {
+    width: 33%;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 15px;
+}
+.turinys{
+    font-size: 40px;
+    line-height: 50px;
+    padding: 10px;
+}
+footer {
+    float: right;
+    margin: 20px 2%;
+}
