@@ -1,0 +1,22 @@
+.meniu {
+    padding: 20px 2%;
+
+}
+
+.meniu a {
+    width: 11%;
+    text-align: center;
+    display: inline-block;
+}
+.profilio_foto {
+    width: 33%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+h1 {
+    margin-right: 15px;
+    font-size: 100px;
+    text-align: right;
+    padding-right: 500px;
+}
