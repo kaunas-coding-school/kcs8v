@@ -62,34 +62,6 @@ a:focus, a:hover {
     border-color: rgba(255, 255, 255, 1);
 }
 
-/*
-a::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    max-height: 0;
-    color: rgba(255,255,255,0);
-    border-left: 2px solid rgba(255,255,255,0);
-    content: attr(data-text);
-    transition: max-height .3s,border-color 0s;
-}
-
-a::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 5px;
-    max-height: 0;
-    color: rgba(255,255,255,0);
-    border-right: 2px solid rgba(255,255,255,0);
-    content: attr(data-text);
-    transition: max-height .3s,border-color 0s;
-}
-*/
-
 a:focus::before, a:hover::before, a:focus::after, a:hover::after {
     max-height: 100%;
     transition-delay: .28s;
@@ -101,4 +73,8 @@ a:focus::before, a:hover::before, a:focus::after, a:hover::after {
     font-size: 22px;
     border-color: black;
     border: solid;
+}
+
+#foto {
+    border: none;
 }
