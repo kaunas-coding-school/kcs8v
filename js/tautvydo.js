@@ -11,7 +11,11 @@ function toggleLempute() {
 
 function ijungti(){
     document.getElementById('lempute').src='../img/pic_bulbon.gif'
+    document.getElementById('bodis').style.backgroundColor = 'black';
+    document.getElementById('bodis').style.color = 'white';
 }
 function isjungti(){
-    document.getElementById('lempute').src='../img/pic_bulboff.gif'
+    document.getElementById('lempute').src='../img/pic_bulboff.gif';
+    document.getElementById('bodis').style.backgroundColor = 'white';
+    document.getElementById('bodis').style.color = 'black';
 }

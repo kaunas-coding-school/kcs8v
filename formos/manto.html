@@ -5,6 +5,27 @@
     <title>Title</title>
 </head>
 <body>
+    <form action="submit.php" method="POST">
+        <input name="vardas" value="" placeholder="Jusu vardas"/>
+        <input type="email" name="pastas" value="" placeholder="Jusu pastas"/>
+        <br/>
+        <textarea name="zinute" placeholder="Jusu zinute cia..."></textarea>
+        <input type="submit" value="SEND">
 
+
+    </form>
+
+    <img src="../img/pic_bulboff.gif"
+         alt="Off"
+         id="lempute"
+    />
+
+    <input type="button"
+           value="Toggle"
+           onclick="toggleLempute()"
+    />
+
+
+    <script src="../js/tautvydo.js"></script>
 </body>
 </html>
