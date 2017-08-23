@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
 </head>
 <body>
-<form action="submit.php">
+
+<form action="submit.php" method="POST">
+    <label for="vardas1">Tavo vardas</label>
+    <input id="vardas1" name="vardas" value="" placeholder="Jusu vardas"/>
     <input name="vardas" value="" placeholder="Jūsų vardas">
-    <input name="pavarde" value="" placeholder="Jūsų pavardė">
+    <span>Tavo pavarde</span>
+    <input name="pastas" value="" placeholder="Jūsų pastas"/>
+    <br/>
+    <textarea name="žinutė" placeholder="Jūsų zinute cia..."></textarea>
     <input type="submit" value="SEND">
 </form>
+
+
+<img src="../img/pic_bulboff.gif"
+     alt="Off"
+     id="lempute"
+/>
+
+
+<input type="button"
+       value="Toggle"
+       onclick="toggleLempute();"
+
+/>
+
+<script src="../js/vytenio.js"></script>
 </body>
 </html>
