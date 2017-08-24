@@ -1,0 +1,28 @@
+.tabai .tab {
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    border-color: black;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+    margin-right: 2px;
+}
+.tabai .active {
+    color: green;
+    background-color: white;
+}
+
+.tabai .sheet {
+    display: none;
+    border:1px solid black;
+}
+
+.tabai .tabHeader {
+    height: 21px;
+}
+
+.tabai .sheets {
+    width: 290px;
+}
+.tabai .sheet {
+    padding: 5px;
+}
