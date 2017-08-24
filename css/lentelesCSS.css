@@ -84,6 +84,6 @@ a:focus::before, a:hover::before, a:focus::after, a:hover::after {
 
 }
 
-p{
+p {
     font-size: 20px;
 }
