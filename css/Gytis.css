@@ -75,6 +75,13 @@ a:focus::before, a:hover::before, a:focus::after, a:hover::after {
     border: solid;
 }
 
+#lentele {
+    margin: 80px 80px 80px 0;
+    font-size: 22px;
+    border-color: black;
+    border: solid;
+}
+
 #foto {
     border: none;
 }
