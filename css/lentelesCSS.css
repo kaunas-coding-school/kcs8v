@@ -29,12 +29,6 @@ div.tab button.active {
     border-top: none;
 }
 
-.bg {
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
 .tabcontent {
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
@@ -62,7 +56,6 @@ a {
     text-decoration: none;
     font-size: 21px;
     color: black;
-
     padding: 16px 7px;
     border-top: 2px solid rgba(255, 255, 255, 0);
     border-bottom: 2px solid rgba(255, 255, 255, 0);
@@ -82,9 +75,13 @@ a:focus::before, a:hover::before, a:focus::after, a:hover::after {
 }
 
 .daugiau {
+
     font-size: 22px;
     border-color: black;
     border: solid;
+    overflow: hidden;
+    margin: 5%;
+
 }
 
 p{
