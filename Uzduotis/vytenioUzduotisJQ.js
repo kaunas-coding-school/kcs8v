@@ -9,5 +9,4 @@ $(document).ready(function(){
         $(this).addClass('dabartinis');
         $("#"+tab_id).addClass('dabartinis');
     })
-
-})
+});

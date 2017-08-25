@@ -1,7 +1,8 @@
 body{
     margin-top: 100px;
     font-family: 'Trebuchet MS', serif;
-    line-height: 1.6
+    line-height: 1.6;
+    background-color: lightblue;
 }
 .bendras {
     width: 800px;
@@ -11,19 +12,31 @@ body{
 
 
 ul.tabai{
-    margin: 0px;
-    padding: 0px;
+
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 ul.tabai li{
-    background: none;
+    height:40px;
+    border-radius: 5px 5px 0 0;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    background: lightseagreen;
     color: #222;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 5px;
+    margin: 0 2px 0 0;
     cursor: pointer;
+}
+.tabai .tab-turinys {
+    border: 1px black;
+    display: none;
+    border-radius: 0 0 5px 5px;
 }
 
 ul.tabai li.dabartinis{
+    border: 1px white;
     background: #ededed;
     color: #222;
 }
@@ -36,4 +49,5 @@ ul.tabai li.dabartinis{
 
 .tab-turinys.dabartinis{
     display: inherit;
+    border: 1px solid black;
 }
