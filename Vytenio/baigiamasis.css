@@ -1,0 +1,17 @@
+#full_image {
+    margin: 100px;
+    padding: 100px;
+    list-style: none;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+}
+
+#full_image li {
+    display: inline;
+}
+
+#full_image li img {
+    margin: 0 auto;
+    max-width: 100%
+}
