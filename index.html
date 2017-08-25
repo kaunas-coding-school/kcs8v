@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="manoApplikacija">
 <head>
     <meta charset="UTF-8">
     <title>Pirmas puslapis</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/meniu.css">
 </head>
 <body>
-    <a href="Evaldas.html">Evaldas</a><br/>
-    <a href="tautvydas.html">Tautvydas</a><br/>
-    <a href="paulius.html">Paulius</a><br/>
-    <a href="Gytis.html">Gytis</a><br/>
-    <a href="vytenis.html">Vytenis</a><br/>
-    <a href="mantas.html">Mantas</a><br/>
-    <a href="Rytis.html">Rytis</a><br/>
-    <a href="andrius.html">Andrius</a><br/>
+<div ng-controller="meniuController" class="meniu">
+        <a ng-repeat="elementas in meniu" ng-href="{{elementas.adresas}}">{{elementas.pavadinimas}}</a>
+</div>
+<hr>
+
+<ng-view></ng-view>
+
+<hr>
+<footer>2017 &copy;</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="tautvydo/manoAplikacija.js"></script>
+    <script src="tautvydo/meniuController.js"></script>
 </body>
 </html>

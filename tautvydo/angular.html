@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="manoApplikacija">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular</title>
+    <link rel="stylesheet" href="../css/tautvydoTabai.css">
+    <style>
+        .tabai .sheet {
+            display: block;
+        }
+    </style>
+</head>
+<body ng-controller="myCtrl">
+
+
+<div ng-init="firstName='Johnas'">
+
+    <p>The name is <span ng-bind="firstName">Tom</span></p>
+
+</div>
+
+<div ng-show="matomumas">Tekstas...</div>
+
+<button ng-click="keistiMatomuma()">Spausti</button>
+
+<hr/>
+
+<div class="tabai" ng-controller="tabaiController">
+    <div class="tabHeader">
+        <a ng-repeat="item in tabai"
+           href="#"
+           class="tab"
+           ng-click="changeTab(item.id)"
+           ng-class="(activeTab == item.id)?'active':''"
+        >{{item.title}}
+        </a>
+    </div>
+    <div class="sheets">
+        <div ng-repeat="sheet in tabai"
+             class="sheet"
+             ng-if="activeTab == sheet.id"
+        >
+            <h2 ng-bind="sheet.title"></h2>
+            <p ng-bind="sheet.content"></p>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="manoAplikacija.js"></script>
+<script src="../js/angular/controllers/myCtrl.js"></script>
+<script src="../js/angular/controllers/tabaiController.js"></script>
+
+</body>
+</html>

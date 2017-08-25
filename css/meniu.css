@@ -1,0 +1,17 @@
+.meniu {
+    padding: 10px 2%;
+}
+a:hover{
+    background-color: silver;
+}
+a{
+    color: black;
+    text-decoration: none;
+    width: 12%;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    border: solid black 1px;
+    padding: 30px 0px 0px 0px;
+    font-size: 20px;
+}
